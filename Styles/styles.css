@@ -1,0 +1,62 @@
+/* 
+color
+background-color
+font-size
+font-family
+font-weight
+font-style
+text-align
+text-decoration
+line-height
+letter-spacing
+width
+height
+max-width or min-width
+max-height or min-height
+*/
+
+/* ./styles */
+
+body {
+    background-color: #e0dddd;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+h1 {
+    text-align: center;
+}
+
+
+section > p,
+section > blockquote {
+    line-height: 2;
+}
+#main-character {
+    font-weight: 600;
+}
+ol > li > span#favorite-movie {
+    font-style: italic;
+}
+.strikethrough-text {
+    text-decoration: line-through;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: .07em;
+}
+
+section#about-section,
+section#fact-section {
+    width: 80%;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about-section img {
+    height: auto;
+    max-width: 100%;
+    min-height: 120px;
+}
